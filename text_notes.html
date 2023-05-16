@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--The character encoding was added so the browser knows how to read your code. More info in this article-->
+        <meta charset="utf-8">
+        <!-- Linking CSS page to this html to apply the style-->
+        <link rel="stylesheet" href="syle_notes.css">
+        <!--Anything you put here, goes to the browser tab. Once you hover over it will display the name-->
+        <title>HTML NOTES</title>
+    </head>
+<!-- HTML tags always start with the < sign and end with a > tag. These are usually referred to as angle brackets -->
+<!-- Every element starts and ends with a tag. From '<em> Towfik </em>' this whole thing is called element -->
+<!-- '<em>' is called opening tag and '</em>' is called closing tag with '/' in the closing tag. <em> tag makes
+    the work italic-->
+<!-- Inline element: Elements does not create invisible block arount elements called inline element. 
+    Ex: <P>,<h1>
+    block element: opposite of inine elements are  called 'block element'. Ex: <em>, <br>, <strong>-->
+<body>
+    <p>My name is <mark>HTML</mark> and I will tell you all about <em>ME</em>.</p>
+
+<!--<strong> tag makes a text bolder-->
+<!--example is in the below-->
+    <p>Did you know? Spaces, tabs, and line breaks are called
+        <strong>whitespace</strong>.</p>
+
+    <p>Did you
+    know? 
+        Spaces,
+        tabs,
+    and line
+    breaks     are     called  <strong>whitespace</strong>.</p>
+
+<!--Whitespaces includes spaces, tabs and line breaks. When the browser displays an HTML file, 
+it treats a run of whitespace as a single space character-->
+<!--The <br> tag is used just to break the line, it is not putting any specilization in the text other than 
+just breaking the line. Thats why this element is called empty or void element.
+If there are no <br> tag then html just put texts in the single line-->
+
+Did you know? <br>
+Spaces, tabs, and line breaks <br>
+are called <strong>whitespace</strong>.
+
+<!--P stands for paragraph. <p> and </p> are tags used for paragraph-->
+<p>Once upon a time there was a baby tiger named Talia.</p> <p>Talia lived in a fearsome jungle in the 
+middle of the fearsome jungle.</p> <p>Talia was the most fearsome of all, though she was only a baby.</p>
+
+<!--Lets try <mark> which used for highlighting a text, in general in yellow. <sub> is used for subscript 
+and <sup> is used for superscript text-->
+
+This is a <mark>story</mark> about <br>
+my <sub>life</sub>... <br>
+Turned <sup>upside</sup> down..
+
+<!--As you just discovered, the h1 element can be used for headlines, or section headings. There are actually 
+six of these heading elements: h1 through h6. h1 is used for the main heading on a page, while the rest are 
+used for subheadings. We use a smaller heading to show that one section is inside another section.
+In contrast, if one section simply comes after the other then we use the same level of heading.
+<br> tag just break the line but <p> tag not only group together sentences in to paragrapsh but also create
+blocks around that paragraph, Thats why it called block element-->
+
+<h1>My HTML Notes</h1>
+    <p>This page is a collection of my awesome notes about HTML!</p>
+<h2>The Web</h2>
+    <p>The Web (or World Wide Web) is a collection of documents and other files. 
+    Most of the documents are made using Hypertext Markup Language (HTML).</p>
+
+
+<!--[div] is stands for division and this element divide the page into different sections with its texts. 
+It also create invisible border arountexts like the way [p] block does alond with its margin, height, width. 
+[div] block contains all other elements other than texts while [p] block is specifically for texts.-->
+
+<div>
+    <p>Call me Ishmael.</p>
+    <p>Just don't call me late for dinner.</p>
+</div>
+
+<!-- [li] is stands for list. It has two category: ol(ordered list) & ul(unordered list). Ordered list meaning 
+webpage will list item with numerics where ul will list item with bullet points. When listing something on a 
+webpage it has to have <li> open tag and </li> close tag can be added but optional within either [ol] or [ul]-->
+<!--Note that closing [li] is optional but [ol] & [ul] cosing tags are mandatory. Alos in [p] tag closing is 
+optional as well-->
+
+<ol>
+    <li>Learn HTML.</li>
+    <li>Learn CSS.</li>
+    <li>Learn Python.</li>
+    <li>Save the world.</li>
+</ol>
+  This line should not be part of the list!
+  (But it will be, if you forget to put a closing tag!)
+
+  <!-- [NOTE]: Note: If you're curious what this weird text is all about, it's something called lorem ipsum. 
+    Essentially, it's nonsensical placeholder text that designers commonly use when they're laying out a 
+    document. You can read more about it (and generate your own lorem ipsum) here. [NOTE]
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+    dolore magna aliqua. Mi sit amet mauris commodo. Vitae elementum curabitur vitae nunc sed velit dignissim 
+    sodales ut. Volutpat est velit egestas dui id ornare arcu. Nulla facilisi nullam vehicula ipsum a arcu 
+    cursus vitae congue. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Et malesuada fames 
+    ac turpis. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Sed risus ultricies tristique nulla. 
+    At auctor urna nunc id. Pharetra convallis posuere morbi leo. Quam quisque id diam vel quam elementum 
+    pulvinar etiam. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Amet risus nullam 
+    eget felis eget nunc lobortis.</p>-->
+
+<!-- div element: the div element is used to create division on a html page. It stands for division. It looks like other 
+other element with openning tag <div> and an closing tag </div>
+-->
+
+    <div class="image">
+        <p class="color">Adding a Image</p>
+        <img src="PXL_20220402_223648749.png" alt="IQRA">
+    </div>
+  </body>
+
+</html>
