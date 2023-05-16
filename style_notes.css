@@ -1,1 +1,46 @@
 
+/*ID selector: When you apply characteristics to only one element. To create an ID in HTML, you use attribute
+ID in the opening tag. When you use in CSS you use the same name you gave the ID attribute in HTML, 
+except you put # symbol before the name
+*/
+
+/*HTML
+//<h1 id="main-heading">Welcome to my page!</h1>
+//css: i am styling main header which is in html with orange background and putting it in the center of the page
+*/
+#main-heading {
+    background-color:orange;
+    text-align: center;
+}
+
+/* CLass Selector: A class is a group of things with the same characteristics. To create a class, you need to use 
+the attribute "class" in the HTML opening tag. Then in your CSS, you use the same name you gave 
+the class attribute in your HTML, except you place a . in front of it.
+*/
+.essential {
+    background-color: yellow;
+    text-decoration: line-through;
+}
+
+/*The CSS makes invisible box around its contents. It consists(from inside to out) height, width, 
+padding(which is space around content of the box), border(outside the padding border of box), 
+margin(space browser makes between boxes)
+*/
+.image {
+    float: right;
+}
+
+
+/*SMAll caps: how to do Small Caps in CSS which writtern in capital letter.
+*/
+<p style = "font-variant:small-caps;">
+         Asia, Antartica, Africa are continents
+</p>
+
+/*COLOR Rule*/
+.color {
+        background-color: rgb(80, 5, 120);/*dark purple*/
+        color: #fed000; /*yellow*/
+        color: rgb(90%, 90%, 90%); /*light grey*/
+
+}
